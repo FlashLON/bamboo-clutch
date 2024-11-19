@@ -1,3 +1,4 @@
+
 body {
   display: flex;
   justify-content: center;
@@ -39,4 +40,16 @@ img {
 
 .highlight {
   background-color: rgba(0, 255, 0, 0.3);
+}
+
+.hover-highlight {
+  filter: brightness(1.5);
+}
+
+.black-side .piece {
+  filter: invert(100%);
+}
+
+.white-side .piece {
+  filter: none;
 }
